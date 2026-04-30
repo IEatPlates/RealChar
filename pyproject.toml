@@ -1,3 +1,4 @@
 [tool.ruff]
 line-length = 100
-app = entrypoint.sh
+[project.scripts]
+app = bash entrypoint.sh
